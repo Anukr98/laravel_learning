@@ -1,0 +1,23 @@
+POST http://localhost:8000/api/login
+Content-Type: application/json
+
+{
+    "email": "anubhav.kumar@gmail.in",
+    "password": "Password@1"
+}
+
+#####
+POST http://localhost:8000/api/user/create
+Content-Type: application/json
+
+{
+    "name": "anubhav kumar",
+    "email": "anubhav.kumar@gmail.in",
+    "password": "Password@1"
+}
+
+#######
+GET http://localhost:8000/api/users
+# Authorization: Bearer 4|xYZMgNueQUjyKjFyBqIhbWAowgnJ5aMlG8MpxxlE
+Content-Type: application/json
+Accept: application/json
